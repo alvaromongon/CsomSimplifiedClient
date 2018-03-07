@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="Microsoft.SharePointOnline.CSOM" Version="16.1.7317.1200" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Csom.Client.Abstractions\Csom.Client.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
